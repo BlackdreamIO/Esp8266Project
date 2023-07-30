@@ -5,8 +5,8 @@
 const char* ssid = "MOFIZ";     // Replace with your Wi-Fi network SSID
 const char* password = "01747666"; // Replace with your Wi-Fi network password
 
-// DEFINE THE LED
 
+// DEFINE THE LED
 const int CONNECTED_LED = D2;
 const int DISCONNECTED_LED = D0;
 const int ESP_STATUS_LED = D1;
@@ -15,6 +15,7 @@ const int AS_LED = D6;
 
 // DEFINE BOOLEAN FOR CONDITION
 
+bool allActive = false;
 bool isConnected = false; 
 bool isConnecting = true;
 bool startUp = false;
